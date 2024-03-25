@@ -47,4 +47,39 @@ body {
     align-self: center;
   }
   
-  
+  /* Laptops or Small Screens */
+  @media screen and (max-width: 1024px) {
+    h3 {
+      color: rgb(0, 255, 242);
+      padding: 3px;
+    }
+    .about-me{
+      background-color: rgb(171, 167, 156);
+    }
+    p {
+      color:#FFFFFF;
+    }
+    h5 {
+      color:rgb(247, 247, 247);
+    }
+    li {
+      color:#FFFFFF;
+    }
+  }
+
+  /* ipads or tablets */
+  @media screen and (max-width: 768px) {
+    h3 {
+      color: #09e99e;
+      padding: 10px;
+    }
+  }
+
+  /* Mobile Devices */
+  @media screen and (max-width: 481px) {
+    h3 {
+      color: rgb(0, 119, 255);
+      padding: 20px;
+    }
+
+  }
