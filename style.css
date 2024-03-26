@@ -50,36 +50,43 @@ body {
   /* Laptops or Small Screens */
   @media screen and (max-width: 1024px) {
     h3 {
-      color: rgb(0, 255, 242);
+      color: #aa5800;
       padding: 3px;
     }
     .about-me{
-      background-color: rgb(171, 167, 156);
+      background-color: rgb(255, 244, 214);
     }
     p {
-      color:#FFFFFF;
+      color:#212121;
     }
     h5 {
-      color:rgb(247, 247, 247);
+      color:#aa5800;
     }
     li {
-      color:#FFFFFF;
+      color:#010101;
     }
   }
 
   /* ipads or tablets */
   @media screen and (max-width: 768px) {
     h3 {
-      color: #09e99e;
+      color:#000000;
       padding: 10px;
     }
+    h5 {
+      color:#000000;
+    }
+    
   }
 
   /* Mobile Devices */
   @media screen and (max-width: 481px) {
     h3 {
-      color: rgb(0, 119, 255);
+      color: rgb(0, 40, 85);
       padding: 20px;
+    }
+    h5 {
+      color:rgb(0, 40, 85);
     }
 
   }
