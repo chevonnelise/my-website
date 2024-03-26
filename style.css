@@ -56,6 +56,9 @@ body {
     .about-me{
       background-color: rgb(171, 167, 156);
     }
+    #header {
+      background-color: rgb(171, 167, 156);
+    }
     p {
       color:#FFFFFF;
     }
