@@ -46,7 +46,18 @@ body {
     border-radius: 4px;
     align-self: center;
   }
-  
+
+  .fixed {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    padding: 10px;
+
+    /* position props */
+    top: 20px;
+    right: 20px;
+  }
+
   footer {
     display: flex;
     justify-content: center;
