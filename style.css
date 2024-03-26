@@ -47,6 +47,13 @@ body {
     align-self: center;
   }
   
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+
   /* Laptops or Small Screens */
   @media screen and (max-width: 1024px) {
     h3 {
@@ -57,12 +64,15 @@ body {
       background-color: rgb(255, 244, 214);
     }
     #header {
-      background-color: rgb(171, 167, 156);
+      background-color: rgb(255, 255, 255);
     }
     p {
       color:#212121;
     }
     h5 {
+      color:#aa5800;
+    }
+    footer p {
       color:#aa5800;
     }
     li {
@@ -79,7 +89,9 @@ body {
     h5 {
       color:#000000;
     }
-    
+    footer p {
+      color:#000000;
+    }
   }
 
   /* Mobile Devices */
@@ -91,5 +103,8 @@ body {
     h5 {
       color:rgb(0, 40, 85);
     }
-
+    footer p {
+      color:rgb(0, 40, 85);
+    
+    }
   }
